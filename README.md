@@ -8,5 +8,3 @@ This is done by right clicking the console top bar > Preferences > Layout > Wind
 I reccomend using a Size 36 font to increase readability
 
 
-Increasing the difficulty will increase ball speed, decrease paddle width, and increase the number of blocks on screen.
-
