@@ -148,13 +148,13 @@ int main()
 		if (GetAsyncKeyState((unsigned short)'A') & 0x8000) // Paddle Left
 		{
 			if((int)fPaddle > 1)
-				fPaddle -= 12.0f * fElapsedTime;
+				fPaddle -= 16.0f * fElapsedTime;
 			
 		}
 		if (GetAsyncKeyState((unsigned short)'D') & 0x8000) // Paddle Right
 		{
 			if ((int)fPaddle + nPaddleWidth + 1 < nScreenWidth - 1)
-				fPaddle += 12.0f * fElapsedTime;
+				fPaddle += 16.0f * fElapsedTime;
 		}
 
 		// Ball Movement
